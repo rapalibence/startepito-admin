@@ -6,7 +6,7 @@ import type { Munka, StatuszAtmenet, UserRole } from '@/types'
 import { format } from 'date-fns'
 import { hu } from 'date-fns/locale'
 
-export const dynamic = 'force-dynamic'
+export const instant = false
 
 function formatArFt(netto: number | null): string {
   if (netto === null) return '—'

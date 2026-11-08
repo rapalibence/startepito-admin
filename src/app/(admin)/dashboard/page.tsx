@@ -3,7 +3,7 @@ import KanbanCard from '@/components/kanban/KanbanCard'
 import { KANBAN_STATUSZOK, SIDE_STATUSZOK, STATUSZ_LABELS } from '@/types'
 import type { Munka } from '@/types'
 
-export const dynamic = 'force-dynamic'
+export const instant = false
 
 export default async function DashboardPage() {
   const supabase = await createClient()
